@@ -1,0 +1,18 @@
+#Write a program to print the Occurrence of a Digit in a given Number in Python
+#Write a program to print the Occurrence of a Digit in a given Number in Python
+
+Number = 828282
+Digit = 2
+
+#initialize Strings
+String1 = str()
+String2 = str()
+
+#typecast int to str
+String1 = str(Number)
+String2 = str(Digit)
+
+#count and print the occurrence
+#Count function will return int value 
+#so change it's type to string and concatenate it
+print(String1.count(String2))
